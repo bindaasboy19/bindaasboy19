@@ -1,5 +1,6 @@
 <!-- PREMIUM GITHUB PROFILE - WORLD CLASS DESIGN -->
 <!-- Crafted for: Elite Software Engineer | Startup Founder | Cybersecurity Professional -->
+<!-- Avatar: Professional Photo Integration -->
 
 <div align="center">
 
@@ -32,53 +33,80 @@ Securing digital futures.
 
 ---
 
-<!-- ANIMATED AVATAR WITH GLOW -->
+<!-- PROFESSIONAL AVATAR WITH PREMIUM FRAME -->
 
 <div align="center">
 
-<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.3));">
+<svg width="180" height="240" viewBox="0 0 180 240" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 10px 30px rgba(255, 215, 0, 0.2));">
   <defs>
     <style>
       @keyframes float {
         0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-10px); }
+        50% { transform: translateY(-8px); }
       }
       @keyframes glow-pulse {
-        0%, 100% { r: 75; opacity: 0.3; }
-        50% { r: 85; opacity: 0.1; }
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.1; }
       }
-      .avatar-container { animation: float 3s ease-in-out infinite; }
-      .glow-ring { animation: glow-pulse 2s ease-in-out infinite; }
+      .avatar-frame { animation: float 4s ease-in-out infinite; }
+      .glow-ring-1 { animation: glow-pulse 3s ease-in-out infinite; }
+      .glow-ring-2 { animation: glow-pulse 2.5s ease-in-out infinite; animation-delay: 0.5s; }
     </style>
-    <linearGradient id="avatarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="frameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00ced1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00ced1;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#9370db;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="bgGradient">
-      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
-    </radialGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.3"/>
+    </filter>
   </defs>
   
-  <!-- Background -->
-  <circle cx="75" cy="75" r="75" fill="url(#bgGradient)"/>
+  <!-- Outer Glow Rings -->
+  <circle cx="90" cy="100" r="95" fill="none" stroke="#ffd700" stroke-width="1" opacity="0.2" class="glow-ring-1"/>
+  <circle cx="90" cy="100" r="85" fill="none" stroke="#00ced1" stroke-width="1" opacity="0.2" class="glow-ring-2"/>
   
-  <!-- Glow Rings -->
-  <circle cx="75" cy="75" r="75" fill="none" stroke="#ffd700" stroke-width="1" opacity="0.2"/>
-  <circle cx="75" cy="75" r="70" fill="none" stroke="#00ced1" stroke-width="1" opacity="0.2" class="glow-ring"/>
-  
-  <!-- Avatar Container -->
-  <g class="avatar-container">
+  <!-- Main Avatar Frame -->
+  <g class="avatar-frame">
+    <!-- Background -->
+    <rect x="10" y="20" width="160" height="200" rx="12" fill="#2a2a4e" filter="url(#shadow)"/>
+    
     <!-- Premium Border -->
-    <circle cx="75" cy="75" r="65" fill="none" stroke="url(#avatarGradient)" stroke-width="3"/>
+    <rect x="10" y="20" width="160" height="200" rx="12" fill="none" stroke="url(#frameGradient)" stroke-width="3"/>
     
-    <!-- Avatar Placeholder (Replace with actual photo) -->
-    <circle cx="75" cy="75" r="62" fill="#2a2a4e"/>
+    <!-- Inner Accent Border -->
+    <rect x="13" y="23" width="154" height="194" rx="10" fill="none" stroke="#00ced1" stroke-width="1" opacity="0.5"/>
     
-    <!-- Initials -->
-    <text x="75" y="85" font-size="48" font-weight="bold" fill="#ffd700" text-anchor="middle" font-family="system-ui, -apple-system">BC</text>
+    <!-- Placeholder for Image - User Photo Area -->
+    <rect x="20" y="30" width="140" height="180" rx="8" fill="#1a1a2e"/>
+    <text x="90" y="115" font-size="14" fill="#ffd700" text-anchor="middle" font-family="system-ui" opacity="0.6">
+      Your Premium Photo
+    </text>
+    <text x="90" y="135" font-size="12" fill="#00ced1" text-anchor="middle" font-family="system-ui" opacity="0.5">
+      High-Resolution Portrait
+    </text>
+    
+    <!-- Top Accent Bar -->
+    <rect x="10" y="20" width="160" height="4" rx="2" fill="url(#frameGradient)"/>
   </g>
+  
+  <!-- Decorative Corner Accents -->
+  <circle cx="20" cy="30" r="2" fill="#ffd700" opacity="0.6"/>
+  <circle cx="160" cy="30" r="2" fill="#00ced1" opacity="0.6"/>
+  <circle cx="20" cy="210" r="2" fill="#00ced1" opacity="0.6"/>
+  <circle cx="160" cy="210" r="2" fill="#9370db" opacity="0.6"/>
 </svg>
+
+<br>
+
+**To use your actual photo:**
+1. Upload your image to a CDN (Imgur, imgbb, or GitHub raw)
+2. Replace the SVG above with: `<img src="YOUR_IMAGE_URL" alt="Sanjeev Chaurasia" width="180">`
+3. Or use this direct integration (paste your image URL):
+
+```markdown
+![Sanjeev Chaurasia](https://your-image-url.jpg)
+```
 
 <br>
 
