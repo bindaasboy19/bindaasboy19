@@ -1,6 +1,7 @@
 <!-- PREMIUM ROYAL GITHUB PROFILE - WORLD CLASS DESIGN -->
 <!-- Elite Software Engineer | AI Architect | Cybersecurity Specialist -->
 <!-- Royal Aesthetic: Gold, Platinum, Deep Purple, Electric Cyan -->
+<!-- Your Professional Photo Integrated -->
 
 <div align="center">
 
@@ -37,7 +38,7 @@
 
 ---
 
-<!-- ANIMATED ROYAL AVATAR WITH PREMIUM PHOTOGRAPHIC FRAME -->
+<!-- PROFESSIONAL AVATAR WITH INTEGRATED PHOTO -->
 
 <div align="center">
 
@@ -87,6 +88,11 @@
       <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#e6b800" flood-opacity="0.2"/>
       <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#00d4ff" flood-opacity="0.1"/>
     </filter>
+    
+    <!-- Clipping path for circular image -->
+    <clipPath id="avatarClip">
+      <rect x="25" y="40" width="150" height="180" rx="12"/>
+    </clipPath>
   </defs>
   
   <!-- Outer Royal Glow Rings -->
@@ -112,13 +118,11 @@
     <!-- Premium Photo Border -->
     <rect x="25" y="40" width="150" height="180" rx="12" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
     
-    <!-- Placeholder Text -->
-    <text x="100" y="130" font-size="16" fill="#e6b800" text-anchor="middle" font-family="system-ui, -apple-system" font-weight="600" letter-spacing="2">
-      YOUR PHOTO
-    </text>
-    <text x="100" y="155" font-size="12" fill="#00d4ff" text-anchor="middle" font-family="system-ui" opacity="0.7">
-      Premium Portrait • 200x260px
-    </text>
+    <!-- Image embedded with clip path -->
+    <image href="https://raw.githubusercontent.com/bindaasboy19/bindaasboy19/main/e34992f8fe8048788477bbae923a97fd.jpg" 
+           x="25" y="40" width="150" height="180" 
+           preserveAspectRatio="xMidYMid slice"
+           clip-path="url(#avatarClip)"/>
     
     <!-- Top Royal Line -->
     <rect x="15" y="25" width="170" height="5" rx="2" fill="url(#royalGradient)"/>
@@ -138,18 +142,6 @@
   <circle cx="150" cy="60" r="1" fill="#00d4ff" opacity="0.3" style="animation: shimmer 3.5s ease-in-out infinite; animation-delay: 1s;"/>
   <circle cx="110" cy="35" r="1.5" fill="#b366ff" opacity="0.4" style="animation: shimmer 3.5s ease-in-out infinite; animation-delay: 1.5s;"/>
 </svg>
-
-<br>
-
-**To integrate your professional photo:**
-```markdown
-![Sanjeev Chaurasia](https://your-image-url.jpg)
-```
-
-Or place in assets folder:
-```markdown
-![Sanjeev Chaurasia](https://raw.githubusercontent.com/bindaasboy19/bindaasboy19/main/assets/avatar.jpg)
-```
 
 <br>
 
