@@ -22,12 +22,12 @@
 ```
 ╔════════════════════════════════════════════════════════════════════╗
 ║                                                                    ║
-║  🌟 Designing elegant solutions to complex problems               ║
-║  🚀 Building products that matter                                 ║
-║  🔐 Securing digital futures with precision and artistry          ║
+║  🌟 Designing elegant solutions to complex problems                ║
+║  🚀 Building products that matter                                  ║
+║  🔐 Securing digital futures with precision and artistry           ║
 ║                                                                    ║
-║  💻 5+ Years of Innovation | 50+ Tech Stack | 15+ Projects        ║
-║  🌍 Remote-Ready | IST Timezone | Worldwide Collaboration         ║
+║  💻 5+ Years of Innovation | 50+ Tech Stack | 15+ Projects         ║
+║  🌍 Remote-Ready | IST Timezone | Worldwide Collaboration          ║
 ║                                                                    ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
